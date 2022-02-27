@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+button.b {
+  background-color: #B62727;
+  border-radius: 12px;
+  padding: 10px;
+  width: 100%;
+}
+</style>
+
+<ul>
+  <li><a href="/home/" href="/home/">Home</a></li>
+  <li><a href="/emergency/">Emergency</a></li>
+  <li><a class="active">Preparation</a></li>
+  <li><a href="/signs/">Signs to Look Out For</a></li>
+  <li><a href="/faq/">FAQ</a></li>
+  <li><a href ="/groups/">View Group</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 70px;height:1000px;">
+  <center>
+<h1>Preparation</h1>
+
+    <!--HERE)-->
+    <p style="background-color: #FF6A6A; color:black">The day before</p>
+  </center>
+    
+    <dl> <!--first set of bullet points--> 
+      <dd>- Ensure your tickets are valid<dd>
+      <dd>- Make sure that you everyone is hydrated</dd>
+      <dd>- Make sure everyone eats a good amount of food </dd>
+      <dd>- Coordinate with your group! Make sure to have a plan </dd>
+
+      <br>
+      <center>
+      <p style="background-color: #FF6A6A; color:black">At the event</p>
+      </center>
+    
+    <dl>
+      <dd>- Spot out areas with medical personnel, emergency staff</dd>
+      <dd>- Have a plan in case of emergency</dd>
+      <dd>- Be honest with your group about what you intend to do at the event</dd>
+      <dd>- Have a designated person to watch over people if necessary</dd>
+      <dd>- If allowed in the venue, narcan can save lives'</dd>
+
+</div>
+
+
+{% endblock content %}

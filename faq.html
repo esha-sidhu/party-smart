@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+  <li><a href="/home/" href="/home/">Home</a></li>
+  <li><a href="/emergency/">Emergency</a></li>
+  <li><a href="/preparation/">Preparation</a></li>
+  <li><a href="/signs/">Signs to Look Out For</a></li>
+  <li><a class="active">FAQ</a></li>
+  <li><a href ="/groups/">View Group</a></li>
+</ul>
+
+
+  <div style="margin-left:25%;padding:1px 70px;height:1000px;">
+    <center>
+<h1>FAQ</h1>
+      </center>
+    <dl>
+      <dd>Q)What is the purpose of this app? </dd>
+      <dd>A)The purpose of this app is to help recognize early symptoms and prevent possibly life threatening scenarios for people. </dd><br>
+      <dd>Q)Do I need to be signed in for access to any of the resources on this app?</dd>
+      <dd>A) No, all resources will be accessible even without having an account created.</dd></br>
+      <dd>Q) Will my medical information be displayed for everyone to see?</dd>
+      <dd>A) No, only people in your group will see your medical information.</dd></br>
+      <dd>Q) Am I able to join multiple groups at the same time?</dd>
+      <dd>A) No, currently you are only able to be in one group at a time. When you create a new group the previous will be deleted. </dd>
+  </div>
+
+{% endblock content %}

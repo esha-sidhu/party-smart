@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+  <li><a href="/home/" href="/home/">Home</a></li>
+  <li><a href="/emergency/">Emergency</a></li>
+  <li><a href="/preparation/">Preparation</a></li>
+  <li><a href="/signs/">Signs to Look Out For</a></li>
+  <li><a href="/faq/">FAQ</a></li>
+  <li><a class="active">View Group</a></li>
+</ul>
+
+  <div style="margin-left:25%;padding:1px 70px;height:1000px;">
+    <center>
+<h1>View and Update your Groups</h1>
+    </center>
+
+  <p> Enter the following information to create a new group: </p>
+
+  <label for="login">Group Login:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea>
+    <br>
+  
+  <label for="pass">Group Password:</label><br>
+    <textarea name="message" rows="1" cols="40">
+  </textarea>
+  <br>
+
+  <label for="mun">Member Usernames:</label><br>
+  <textarea name="message" rows="10" cols="40">
+  </textarea>
+    <br>
+    
+  <label for="ecp">Emergency Contact Phone Numbers:</label><br>
+  <textarea name="message" rows="10" cols="40">
+  </textarea>
+    <br>
+    
+  </div>
+
+{% endblock content %}

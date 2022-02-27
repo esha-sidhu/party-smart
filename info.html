@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+  <li><a href="/home/" href="/home/">Home</a></li>
+  <li><a href="/emergency/">Emergency</a></li>
+  <li><a href="/preparation/">Preparation</a></li>
+  <li><a href="/signs/">Signs to Look Out For</a></li>
+  <li><a href="/faq/">FAQ</a></li>
+  <li><a href ="/groups/">View Group</a></li>
+  <li><a class ="active">Personal Information</a></li>
+</ul>
+
+
+  <div style="margin-left:25%;padding:1px 70px;height:1000px;">
+    <center>
+<h1>Personal Information</h1>
+    </center>
+  <label for="fname">Name:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+  
+  <label for="age">Age:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+
+  <label for="ec">Emergency Contact Name:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+    
+  <label for="ecp">Emergency Contact Phone Number:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+
+  <label for="bt">Blood Type:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+    
+  <label for="mc">Allergies/Medical Conditions:</label><br>
+  <textarea name="message" rows="10" cols="40">
+  </textarea>
+    <br>
+    
+  <label for="ip">Insurance Provider:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+
+  <label for="un">Username:</label><br>
+  <textarea name="message" rows="1" cols="40">
+  </textarea><br>
+    
+  </div>
+
+{% endblock content %}
